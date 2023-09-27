@@ -1,4 +1,4 @@
-# nlpProject
+# nlpProject 📚
 Natural Language Processing project to perform sentiment analysis on movie review using python and NLTK
 
 # Simple Sentiment Analysis Project
@@ -10,3 +10,17 @@ Classify Movie Reviews as either Positive or Negative
 
 ## Instructions:
 1. Run the cells in sequence to import libraries, download the dataset, prepare the data, split the dataset, build, train and evaluate the model.
+
+## Results
+### Confusion Matrix
+<img src="/ConfusionMatrix.png">
+
+### Negative Reviews
+<img src="/WordCloudForNegativeReviews.png">
+
+### Positive Reviews
+<img src="/WordCloudForPositiveReviews.png">
+
+### Distribution of Review Lengths
+<img src="/DistributionOfReviewLengths.png">
+
