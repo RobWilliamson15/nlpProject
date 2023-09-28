@@ -38,14 +38,14 @@ python sentiment_analysis.py
 
 ## Results/Visualizations
 ### Confusion Matrix
-<img src="/ConfusionMatrix.png">
+<img src="/images/ConfusionMatrix.png">
 
 ### Negative Reviews
-<img src="/WordCloudForNegativeReviews.png">
+<img src="/images/WordCloudForNegativeReviews.png">
 
 ### Positive Reviews
-<img src="/WordCloudForPositiveReviews.png">
+<img src="/images/WordCloudForPositiveReviews.png">
 
 ### Distribution of Review Lengths
-<img src="/DistributionOfReviewLengths.png">
+<img src="/images/DistributionOfReviewLengths.png">
 
