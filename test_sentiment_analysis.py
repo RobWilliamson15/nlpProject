@@ -20,6 +20,7 @@ class TestMethods(unittest.TestCase):
 
     def test_plot_wordclouds(self):
         try:
+            nltk.download('stopwords')
             plot_wordclouds(self.example_data, self.example_labels)
             self.assertTrue(True)  # Passed if no error occurs
         except Exception as e:
