@@ -53,7 +53,9 @@ plt.figure(figsize=(8,8))
 plt.imshow(wordcloud)
 plt.axis("off")
 plt.title("Word Cloud for Positive Reviews")
-plt.show()
+plt.show(block=False)
+plt.pause(5)
+plt.close()
 
 negative_reviews = ' '.join([review for review, label in zip(X_train, y_train) if label == 'neg'])
 
@@ -66,7 +68,9 @@ plt.figure(figsize=(8,8))
 plt.imshow(wordcloud)
 plt.axis("off")
 plt.title("Word Cloud for Negative Reviews")
-plt.show()
+plt.show(block=False)
+plt.pause(5)
+plt.close()
 
 review_lengths = [len(review.split()) for review in X_train]
 
@@ -75,5 +79,7 @@ plt.hist(review_lengths, bins=30, color='skyblue', edgecolor='black')
 plt.title('Distribution of Review Lengths')
 plt.xlabel('Number of Words')
 plt.ylabel('Frequency')
-plt.show()
+plt.show(block=False)
+plt.pause(5)
+plt.close()
 
